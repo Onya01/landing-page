@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Homepage from '../components/Homepage'
 import Logo from '../components/Logo'
 import Rated from '../components/Rated'
+import Tax from '../components/Tax'
 
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Bamyx - landing page</title>
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main>
@@ -20,8 +21,8 @@ export default function Home() {
         <Logo />
         <Homepage />
         <Enroll />
-        {/* <Rate /> */}
         <Rated />
+        <Tax />
       </main>
 
       <footer>

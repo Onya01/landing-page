@@ -72,6 +72,7 @@ a {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+  width: 100%;
 }
 .enroll1 {
   margin-left: 150px;
@@ -113,6 +114,9 @@ a {
 }
 
 /* Top Rated enrolled */
+.rate {
+  width: 100%;
+}
 .rate1 {
   width: 100%;
   position: absolute;
@@ -126,9 +130,8 @@ a {
   color: #01105b;
 }
 .rate2 {
-  margin-top: 100px;
   /* Licensed and Verified Enrolled Agents */
-
+  margin-top: 100px;
   position: absolute;
   width: 100%;
   height: 29px;
@@ -281,4 +284,74 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+}
+.background1 {
+  /* Rectangle 18 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../public/assets/pexels.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 100%;
+  margin-left: 60px;
+  padding: 60px;
+  position: absolute;
+  width: 100%;
+  height: 599px;
+  border-radius: 10px;
+}
+.background2 {
+  /* Rectangle 40 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../public/assets/pexels-fauxels.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 150%;
+  margin-left: 60px;
+  padding: 120px;
+  width: 270px;
+  position: absolute;
+  border-radius: 10px;
+  height: 10px;
+}
+.background3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45)),
+    url('../public/assets/pexels.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 300px;
+  height: 237px;
+  padding: 120px;
+  margin-top: 150%;
+  margin-left: 370px;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+.background4 {
+  /* pexels-fauxels-3183197 1 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../public/assets/pexels-fauxels.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 270px;
+  height: 232px;
+  padding: 120px;
+  margin-top: 150%;
+  margin-left: 695px;
+  border-radius: 10px;
+}
+.background5 {
+  /* pexels-fauxels-3183197 1 */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('../public/assets/pexels-fauxels.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 270px;
+  height: 232px;
+  padding: 120px;
+  margin-top: 150%;
+  margin-left: 1005px;
+  border-radius: 10px;
 }

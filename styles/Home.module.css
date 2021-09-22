@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .footer {
   width: 100%;
@@ -240,4 +240,28 @@
   transform: translateY(-50%);
   text-align: center;
   color: #fff;
+}
+.tax {
+  /* Tax Resources */
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  top: 310%;
+  position: absolute;
+  height: 71px;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 71px;
+  color: #01105b;
+}
+.icon {
+  /* Vector */
+  position: absolute;
+  width: 106.03px;
+  height: 106.03px;
+  width: 100%;
+  transform: translateY(250%);
+  text-align: center;
 }
